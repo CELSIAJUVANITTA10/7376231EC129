@@ -4,6 +4,7 @@ const priorityMap = {
     Event: 1
 }
 
+
 const sortNotifications = (notifications) => {
     return notifications.sort((a, b) => {
         const priorityDifference =
